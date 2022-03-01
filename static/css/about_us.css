@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+     text-decoration: none;
+}
+li {
+	list-style: none;
+}
+h2{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)) ,url('../image/contra.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.navbar:before{
+     content: "";
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     opacity: 0.3;
+     z-index: -1;
+
+}
+.nav-item a{
+	color: #fff!important;
+	padding-right: 20px;
+
+}
+.navbar-brand {
+	color: #fff;
+	padding-right: 30px;
+
+}
+.listing{
+	border: 2px solid yellow;
+	padding: 3px;
+	background-color: yellow;
+     font-weight: bold;
+}
+.listing a{
+	color: black!important;
+}
+.navbar-nav li{
+	margin: 20px;
+}
+
+.center-div{
+	width: 100vw;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	margin-top: 200px;
+}
+.center-div h1{
+	font-size: 5rem;
+}
+.vision h1{
+	font-size: 3rem;
+	 display:inline-block;
+    border-bottom:7px solid yellow;
+    padding-bottom:1px;
+}
+.vision img{
+	width: 100%;
+	height: auto;
+
+}
+.fox p{
+	margin-top: 60px;
+	margin-left: 40px;
+}
+.card-body h4{
+	font-weight: bold;
+	text-align: center;
+}
+.card-body{
+	text-align: center;
+	font-weight: bold;
+	background-color: yellow;
+}
+.qw{
+	background-color: yellow;
+}
+.card{
+	border: none;
+}
+.team{
+	padding: 30px;
+
+}
+.sm i{
+	padding: 5px;
+	color: black;
+}
+.footer{
+	background: #16c9f6;
+	
+}
+@media(max-width: 1200px)
+{
+	.card-img-top{
+		padding: 30px;
+	}
+}
+
+@media(max-width: 991px)
+{
+	.card{
+		width: 150px!important;
+	}
+}
+@media(max-width: 768px)
+{
+	.card{
+		margin-left: 170px;
+	}
+
+}
+

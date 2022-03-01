@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+     text-decoration: none;
+}
+li {
+	list-style: none;
+}
+h2{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)) ,url('../image/contra.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.navbar:before{
+     content: "";
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     opacity: 0.3;
+     z-index: -1;
+
+}
+.nav-item a{
+	color: #fff!important;
+	padding-right: 20px;
+
+}
+.navbar-brand {
+	color: #fff;
+	padding-right: 30px;
+
+}
+.listing{
+	border: 2px solid yellow;
+	padding: 3px;
+	background-color: yellow;
+     font-weight: bold;
+}
+.listing a{
+	color: black!important;
+}
+.navbar-nav li{
+	margin: 20px;
+}
+.container .input{
+	border: 0;
+	outline: none;
+}
+.search-bar{
+	width: 500px;
+	margin: 20px auto;
+	margin-left: 45px;
+}
+.search-bar .search-box{
+	position: relative;
+	width: 500px;
+	height: 60px;
+}
+.search-bar .search-box input{
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	padding: 20px 30px;
+}
+.search-bar .search-box .search-btn{
+	position: absolute;
+	top: 7px;
+	left: 6px;
+}
+.container1{
+	margin-left: 50px;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 50px;
+}
+.container1 h2{
+	color: white;
+	margin: 100px auto;
+	font-size: 40px;
+	font-weight: bold;
+}
+.container1 p{
+	color: white;
+	margin-top: 50px;
+	font-weight: bold;
+	transform: translateY(-30px);
+}
+.container1 a{
+	border: 1px solid yellow;
+	padding: 10px 30px;
+	color: black;
+	background-color: yellow;
+
+}
+
+.card-body .btn{
+	width: 100%;
+	height: 100%;
+
+}
+.card{
+	margin: 20px 20px;
+	border-radius: 10px;
+	transition: 0.3s ease;
+}
+.card-body .card-img-top{
+	width: 100%;
+}
+.card:hover{
+	transform: translateY(-20px);
+}
+.btn-outline-info{
+	margin-left: 520px;
+	padding: 10px 20px;
+	background-color: darkviolet;
+	color: white;
+}
+.how{
+	background: #f7f7f9;
+}
+.center-div{
+	margin-top: 70px;
+	margin-left: 20px;
+}
+.qwe{
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+.test{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0;
+}
+.box{
+	text-align: center;
+	border: 1px solid blue;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+	border-radius: 2px;
+	transition: 0.3s ease;
+}
+.box:hover{
+	transform: translateY(-20px);
+	background-color: yellow;
+}
+.box a{
+	position: relative;
+}
+.box a img{
+	width: 20px;
+	height: 250px;
+	border-radius: 50%;
+	margin-top: 20px;
+	border: none;
+	
+}
+@media(max-width: 562px)
+{
+	.search-bar .search-box input{
+	width: 75%;
+}
+.container1 p{
+	width: 75%;
+	transform: translateY(-60px);
+}
+.container1 a{
+	margin-bottom: 30px;
+
+}
+
+}
