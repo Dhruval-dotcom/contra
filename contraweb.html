@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
-	<title>first website as a developer</title>
-	 <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="static/css/contraweb.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Contraweb | Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="static2/css/contraweb.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+		integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <style>
-#testimonials{
-  display: flex;
-  width: 100%;
-  flex-wrap: unset;
-  flex-direction: row;
-  overflow-x: scroll;
-}
- .click{
-   position: relative;
-   top: 18%;
-   left: 2%;
-   width: 3%;
- }
-  .popup_box{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 5px;
-}
-/*.click{
+	.click {
+		position: relative;
+		top: 18%;
+		left: 2%;
+		width: 3%;
+	}
+
+	.popup_box {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 5px;
+	}
+
+	/*.click{
   background: #2981bc;
   color: white;
   font-size: 22px;
@@ -43,353 +42,375 @@
   text-align: center;
   border: 1px solid #0059b3;
 } */
- .popup_box{
-  width: 400px;
-  background: #f2f2f2;
-  text-align: center;
-  align-items: center;
-  padding: 40px;
-  border: 1px solid #b3b3b3;
-  box-shadow: 0px 5px 10px rgba(0,0,0,.2);
-  z-index: 9999;
-  display: none;
-}
-.popup_box i{
-  font-size: 60px;
-  color: #eb9447;
-  border: 5px solid #eb9447;
-  padding: 20px 40px;
-  border-radius: 50%;
-  margin: -10px 0 20px 0;
-}
-.popup_box h1{
-  font-size: 30px;
-  color: #1b2631;
-  margin-bottom: 5px;
-}
-.popup_box label{
-  font-size: 23px;
-  color: #404040;
-}
-.popup_box .btns{
-  margin: 40px 0 0 0;
-}
-.btns .btn1, .btns .btn2{
-  background: #999999;
-  color: white;
-  font-size: 18px;
-  border-radius: 5px;
-  border: 1px solid #808080;
-  padding: 10px 13px;
-}
-.btns .btn2{
-  margin-left: 20px;
-  background: #ff3333;
-  border: 1px solid #cc0000;
-}
-.btns .btn1:hover{
-  transition: .5s;
-  background: #8c8c8c;
-}
-.btns .btn2:hover{
-  transition: .5s;
-  background: #e60000;
-}
+	.popup_box {
+		width: 400px;
+		background: #f2f2f2;
+		text-align: center;
+		align-items: center;
+		padding: 40px;
+		border: 1px solid #b3b3b3;
+		box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
+		z-index: 9999;
+		display: none;
+	}
 
+	.popup_box i {
+		font-size: 60px;
+		color: #eb9447;
+		border: 5px solid #eb9447;
+		padding: 20px 40px;
+		border-radius: 50%;
+		margin: -10px 0 20px 0;
+	}
+
+	#testimonials{
+  display: flex;
+  width: 100%;
+  flex-wrap: unset;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+	.popup_box h1 {
+		font-size: 30px;
+		color: #1b2631;
+		margin-bottom: 5px;
+	}
+
+	.popup_box label {
+		font-size: 23px;
+		color: #404040;
+	}
+
+	.popup_box .btns {
+		margin: 40px 0 0 0;
+	}
+
+	.btns .btn1,
+	.btns .btn2 {
+		background: #999999;
+		color: white;
+		font-size: 18px;
+		border-radius: 5px;
+		border: 1px solid #808080;
+		padding: 10px 13px;
+	}
+
+	.btns .btn2 {
+		margin-left: 20px;
+		background: #ff3333;
+		border: 1px solid #cc0000;
+	}
+
+	.btns .btn1:hover {
+		transition: .5s;
+		background: #8c8c8c;
+	}
+
+	.btns .btn2:hover {
+		transition: .5s;
+		background: #e60000;
+	}
 </style>
-<body> 
- <div class="header" id="topheader">
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top">
-        <div class="container nav-top text-uppercase p-2">
-  <a class="navbar-brand font-weight-bold" href="#">Contraweb</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse " id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto font-weight-bold p-2">
-      <li class="nav-item active">
-        <a class="nav-link" href="contraweb.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link font-weight-bold" href="services.html">services</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link font-weight-bold" href="about_us.html">about us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">login</a>
-      </li>
-      <li class="nav-item listing navbar-light">
-        <a class="nav-link " href="business_login.html">free listing </a>
-      </li>
-    </ul>
-  </div>
-  </div>
-</nav>
-<script>
-  function funboxn2(){
-    if(document.getElementById("searchn").value=="our services"){
-        document.getElementById("boxn2").textContent="services are given in service page click on red button to go to service page"
-        document.getElementById("btn2").href="services.html"
-        return;
-      }
-      if(document.getElementById("searchn").value=="business listing"){
-        document.getElementById("boxn2").textContent="business listing is in business listing page click on red button to go to business listing"
-        document.getElementById("btn2").href="business_listing.html"
-      }
-      if(document.getElementById("searchn").value=="customer login"){
-        document.getElementById("boxn2").textContent="click on red button to go to customer login page"
-        document.getElementById("btn2").href="login_customer.html"
-      }
-      if(document.getElementById("searchn").value=="business login"){
-        document.getElementById("boxn2").textContent="click on red button to go to business login"
-        document.getElementById("btn2").href="business_login.html"
-      }
-      if(document.getElementById("searchn").value=="about us"){
-        document.getElementById("boxn2").textContent="click on red button to go to about us page"
-        document.getElementById("btn2").href="about_us.html"
-      }
-      if(document.getElementById("searchn").value=="business signup"){
-        document.getElementById("boxn2").textContent=" click on red button to go to business sign up page"
-        document.getElementById("btn2").href="business_listing.html"
-      }
-      if(document.getElementById("searchn").value=="customer signup"){
-        document.getElementById("boxn2").textContent="services are given in service page click on red button to go to service page"
-        document.getElementById("btn2").href="sign_up_customer.html"
-      }
-      if(document.getElementById("searchn").value=="reviews / testimonials"){
-        document.getElementById("boxn2").textContent=" reviews are given at the bottom of home page"
-        document.getElementById("btn2").href="index.html"
-      }
-      if(document.getElementById("searchn").value=="contact us"){
-        document.getElementById("boxn2").textContent="click on red button to go to contact us page"
-        document.getElementById("btn2").href="about_us.html"
-      }
-  }
-</script>
-<script>
-  $(document).ready(function(){
-    $('.click').click(function(){
-      $('.popup_box').css("display", "block");
-    });
-    $('.btn1').click(function(){
-      $('.popup_box').css("display", "none");
-    });
-    $('.btn2').click(function(){ 
-      $('.popup_box').css("display", "none");
-    });
-  });
+<body>
+	<div class="header" id="topheader">
+		<nav class="navbar navbar-expand-lg navbar-dark navbar-sticky">
+			<div class="container nav-top text-uppercase p-2">
+				<a class="navbar-brand font-weight-bold" href="#">Contraweb</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-</script>
-<section class="header-section">
-        <div class="container">
-        <div class="search-bar">
-          <div class="search-box">
-        <input type="text" name="" id="searchn" list="sear" placeholder=" Search...">
-		<datalist id="sear">
-					<option value="our services">
-					<option value="business listing">
-					<option value="customer login">
-					<option value="customer signup">
-					<option value="business login">
-					<option value="business signup">
-					<option value="about us">
-					<option value="reviews / testimonials">
-					<option value="contact us">
-		</datalist>
-        <div  class="click" id="boxsrch"  onclick="funboxn2();">         
-            <i  class="fas fa-search"></i>
-          </div>
-          <div class="popup_box">
-            <i class="fas fa-exclamation"></i>
-            <h5 id="boxn2">this is in page</h5>
-            <label>Are you sure to proceed?</label>
-            <div class="btns" >
-              <a href="#" class="btn1">Cancel</a>
-              <a href="#" onclick="funboxn2();" id="btn2" class="btn2">open that page</a>
-            </div> 
-        </div>
-        </div>
-        <div class="container1">
-        <h2>Find the right people<br> 
-            to get your job done!</h2>
-                     <p>We are working to connect you to the contractor and workers of <br>
-            The quick, brown fox jumps over a lazy dog. DJs flock by when <br>
-            MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds <br>
-            jog, flick quartz, vex nymphs. Waltz</p>
-      
-      <a href="#">SEARCH</a>
-      </div>
-       </div>
-</section>
-</div>
+				<div class="collapse navbar-collapse " id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto font-weight-bold p-2">
+						<li class="nav-item active">
+							<a class="nav-link" href="contraweb.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link font-weight-bold" href="services.html">services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link font-weight-bold" href="about_us.html">about us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">login</a>
+						</li>
+						<li class="nav-item listing navbar-light">
+							<a class="nav-link " href="business_login.html">free listing </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-<!------------------------------ourservices part begins-------------------------------------->
-<section class="main_heading my-5 pt-5">
-  <div class="text-center">
-    <h1 class="font-weight-bold text-uppercase">Our Services</h1>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-10 col-xxl-4 mx-auto">
-        <div class="card" style="width:100%">
-  <img class="card-img-top" src="static/image/2.jpg" alt="Card image">
-  <div class="card-body">
-    <a href="#" class="btn btn-warning">construction</a>
-  </div>
-</div>
-      </div>
-      <div class="col-md-4 col-10 col-xxl-4 mx-auto">
-        <div class="card" style="width:100%">
-  <img class="card-img-top" src="static/image/2.jpg" alt="Card image">
-  <div class="card-body">
-    <a href="#" class="btn btn-warning">electrification</a>
-  </div>
-</div>
-      </div>
-      <div class="col-md-4 col-10 col-xxl-4 mx-auto">
-        <div class="card" style="width:100%">
-  <img class="card-img-top" src="static/image/2.jpg" alt="Card image">
-  <div class="card-body">
-    <a href="#" class="btn btn-warning">plumbing</a>
-  </div>
-</div>
-      </div>
-      <div class="col-md-4 col-10 col-xxl-4 mx-auto">
-        <div class="card" style="width:100%">
-  <img class="card-img-top" src="static/image/2.jpg" alt="Card image">
-  <div class="card-body">
-    <a href="#" class="btn btn-warning">carpentry</a>
-  </div>
-</div>
-      </div>
-      <div class="col-md-4 col-10 col-xxl-4 mx-auto">
-        <div class="card" style="width:100%">
-  <img class="card-img-top" src="static/image/2.jpg" alt="Card image">
-  <div class="card-body">
-    <a href="#" class="btn btn-warning">painting</a>
-  </div>
-</div>
-      </div>
-      <div class="col-md-4 col-10 col-xxl-4 mx-auto">
-        <div class="card" style="width:100%">
-  <img class="card-img-top" src="static/image/2.jpg" alt="Card image">
-  <div class="card-body">
-    <a href="#" class="btn btn-warning">pop</a>
-  </div>
-</div>
-      </div>
-	  
-    <button type="button" class="btn btn-outline-info text-center d-flex justify-content-center d-md-table mx-auto " data-placement="right" data-toggle="tooltip"> <a style="color: white;" href="services.html">view more</a> </button>
-    </div>
-  </div>
-</section>
-<!-----------------------------------ouer services finish-------------------->
+		<script>
+			function funboxn2() {
+				if (document.getElementById("searchn").value == "our services") {
+					document.getElementById("boxn2").textContent = "services are given in service page click on red button to go to service page"
+					document.getElementById("btn2").href = "services.html"
+					return;
+				}
+				if (document.getElementById("searchn").value == "business listing") {
+					document.getElementById("boxn2").textContent = "business listing is in business listing page click on red button to go to business listing"
+					document.getElementById("btn2").href = "business_listing.html"
+				}
+				if (document.getElementById("searchn").value == "customer login") {
+					document.getElementById("boxn2").textContent = "click on red button to go to customer login page"
+					document.getElementById("btn2").href = "login_customer.html"
+				}
+				if (document.getElementById("searchn").value == "business login") {
+					document.getElementById("boxn2").textContent = "click on red button to go to business login"
+					document.getElementById("btn2").href = "business_login.html"
+				}
+				if (document.getElementById("searchn").value == "about us") {
+					document.getElementById("boxn2").textContent = "click on red button to go to about us page"
+					document.getElementById("btn2").href = "about_us.html"
+				}
+				if (document.getElementById("searchn").value == "business signup") {
+					document.getElementById("boxn2").textContent = " click on red button to go to business sign up page"
+					document.getElementById("btn2").href = "business_listing.html"
+				}
+				if (document.getElementById("searchn").value == "customer signup") {
+					document.getElementById("boxn2").textContent = "services are given in service page click on red button to go to service page"
+					document.getElementById("btn2").href = "sign_up_customer.html"
+				}
+				if (document.getElementById("searchn").value == "reviews / testimonials") {
+					document.getElementById("boxn2").textContent = " reviews are given at the bottom of home page"
+					document.getElementById("btn2").href = "index.html"
+				}
+				if (document.getElementById("searchn").value == "contact us") {
+					document.getElementById("boxn2").textContent = "click on red button to go to contact us page"
+					document.getElementById("btn2").href = "about_us.html"
+				}
+			}
+		</script>
+		<script>
+			$(document).ready(function () {
+				$('.click').click(function () {
+					$('.popup_box').css("display", "block");
+				});
+				$('.btn1').click(function () {
+					$('.popup_box').css("display", "none");
+				});
+				$('.btn2').click(function () {
+					$('.popup_box').css("display", "none");
+				});
+			});
 
-<section class="main_heading my-5 how">
-  <div class="text-center">
-    <h1 class="font-weight-bold qwe">how to use?</h1>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-12">
-        <p class="font-weight-bold">Step1:</p>
-        <p>log in or sign up on www.contraweb.co.in</p><br>
-        <p class="font-weight-bold">Step2:</p>
-        <p>Go to "Services" from the navigation or 
-Type your requirement on Search bar </p><br>
-        <p class="font-weight-bold">Step3:</p>
-        <p>Choose category of your 
-service from the list </p><br>
-        <p class="font-weight-bold">Step4:</p>
-        <p>Visit & Explore number of profile 
-according to your Service requirement.</p><br>
-        <p class="font-weight-bold">Step5:</p>
-        <p>Get Contact of your best match 
-service provider & your job Done!</p><br>
-      </div>
-       <div class="col-lg-6 col-md-6 col-12">
-        <figure class="center-div">
-          <img src="static/image/5.jpg" class="img-fluid">
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
-<!----------------------------how to use ends--------------------->
-<section class="main_heading my-5 test">
-  <div class="text-center">
-    <h1 class="font-weight-bold qwe">Testimonials</h1>
-  </div>
-  <div class="container">
-  <div class="row" id="testimonials">
-    <div class="col-lg-4 col-md-4 col-12">
-      <div class="box"  style="padding: 5px;">
-                 <h1>Shyamlal Sharma</h1>
-        <h2>CEO, Chai Sutta Bar</h2>
-        <p> Lorem ipsum dolor sit amet, consetetur
-        sadipscing elitr, sed diam nonumy eirmod
-        tempor invidunt ut labore et dolore magna Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sequi, ipsa non, reprehenderit assumenda totam quam ratione placeat nihil error modi explicabo ex id esse voluptatibus maxime minima nobis eum!
-        </p>
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-4 col-12">
-      <div class="box">
-                 <h1>Shyamlal Sharma</h1>
-        <h2>CEO, Chai Sutta Bar</h2>
-        <p> Lorem ipsum dolor sit amet, consetetur
-        sadipscing elitr, sed diam nonumy eirmod
-        tempor invidunt ut labore et dolore magna
-        </p>
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-4 col-12">
-      <div class="box">
-                 <h1>Shyamlal Sharma</h1>
-        <h2>CEO, Chai Sutta Bar</h2>
-        <p> Lorem ipsum dolor sit amet, consetetur
-        sadipscing elitr, sed diam nonumy eirmod
-        tempor invidunt ut labore et dolore magna
-        </p>
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-4 col-12">
-      <div class="box">
-                 <h1>Shyamlal Sharma</h1>
-        <h2>CEO, Chai Sutta Bar</h2>
-        <p> Lorem ipsum dolor sit amet, consetetur
-        sadipscing elitr, sed diam nonumy eirmod
-        tempor invidunt ut labore et dolore magna
-        </p>
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-4 col-12">
-      <div class="box">
-                 <h1>Shyamlal Sharma</h1>
-        <h2>CEO, Chai Sutta Bar</h2>
-        <p> Lorem ipsum dolor sit amet, consetetur
-        sadipscing elitr, sed diam nonumy eirmod
-        tempor invidunt ut labore et dolore magna
-        </p>
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-4 col-12">
-      <div class="box">
-                 <h1>Shyamlal Sharma</h1>
-        <h2>CEO, Chai Sutta Bar</h2>
-        <p> Lorem ipsum dolor sit amet, consetetur
-        sadipscing elitr, sed diam nonumy eirmod
-        tempor invidunt ut labore et dolore magna
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
+		</script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<section class="header-section">
+			<div class="container">
+				<div class="search-bar">
+					<div class="search-box">
+						<input type="text" name="" id="searchn" list="sear" placeholder=" Search...">
+						<datalist id="sear">
+							<option value="our services">
+							<option value="business listing">
+							<option value="customer login">
+							<option value="customer signup">
+							<option value="business login">
+							<option value="business signup">
+							<option value="about us">
+							<option value="reviews / testimonials">
+							<option value="contact us">
+						</datalist>
+						<div class="click" id="boxsrch" onclick="funboxn2();">
+							<i class="fas fa-search"></i>
+						</div>
+						<div class="popup_box">
+							<i class="fas fa-exclamation"></i>
+							<h5 id="boxn2">this is in page</h5>
+							<label>Are you sure to proceed?</label>
+							<div class="btns">
+								<a href="#" class="btn1">Cancel</a>
+								<a href="#" onclick="funboxn2();" id="btn2" class="btn2">open that page</a>
+							</div>
+						</div>
+					</div>
+					<div class="container1">
+						<div class="title">
+							<h2>Find the right people
+								to get your job done!</h2>
+						</div>
+						<p>We are working to connect you to the contractor and workers of
+							The quick, brown fox jumps over a lazy dog. DJs flock by when
+							MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds
+							jog, flick quartz, vex nymphs. Waltz</p>
+
+						<a href="#">SEARCH</a>
+					</div>
+				</div>
+		</section>
+	</div>
+
+	<!------------------------------ourservices part begins-------------------------------------->
+	<section class="main_heading my-5 pt-5">
+		<div class="text-center">
+			<h1 class="font-weight-bold text-uppercase mb-3">Our Services</h1>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-10 col-xxl-4 mx-auto mb-3">
+					<div class="card" style="width:100%">
+						<img class="card-img-top" src="static/image/2.jpg" alt="Card image">
+						<div class="card-body">
+							<a href="#" class="btn btn-warning">construction</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-10 col-xxl-4 mx-auto mb-3">
+					<div class="card" style="width:100%">
+						<img class="card-img-top" src="static/image/2.jpg" alt="Card image">
+						<div class="card-body">
+							<a href="#" class="btn btn-warning">electrification</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-10 col-xxl-4 mx-auto mb-3">
+					<div class="card" style="width:100%">
+						<img class="card-img-top" src="static/image/2.jpg" alt="Card image">
+						<div class="card-body">
+							<a href="#" class="btn btn-warning">plumbing</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-10 col-xxl-4 mx-auto mt-3 mb-3">
+					<div class="card" style="width:100%">
+						<img class="card-img-top" src="static/image/2.jpg" alt="Card image">
+						<div class="card-body">
+							<a href="#" class="btn btn-warning">carpentry</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-10 col-xxl-4 mx-auto mt-3 mb-3">
+					<div class="card" style="width:100%">
+						<img class="card-img-top" src="static/image/2.jpg" alt="Card image">
+						<div class="card-body">
+							<a href="#" class="btn btn-warning">painting</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-10 col-xxl-4 mx-auto mt-3 mb-3">
+					<div class="card" style="width:100%">
+						<img class="card-img-top" src="static/image/2.jpg" alt="Card image">
+						<div class="card-body">
+							<a href="#" class="btn btn-warning">pop</a>
+						</div>
+					</div>
+				</div>
+
+				<button type="button"
+					class="btn btn-outline-info text-center d-flex justify-content-center d-md-table mx-auto "
+					data-placement="right" data-toggle="tooltip"> <a style="color: white;" href="services.html">view
+						more</a>
+				</button>
+			</div>
+		</div>
+	</section>
+	<!-----------------------------------ouer services finish-------------------->
+
+	<section class="main_heading my-5 how">
+		<div class="text-center">
+			<h1 class="font-weight-bold qwe">how to use?</h1>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-12">
+					<p class="font-weight-bold">Step1:</p>
+					<p>log in or sign up on www.contraweb.co.in</p><br>
+					<p class="font-weight-bold">Step2:</p>
+					<p>Go to "Services" from the navigation or
+						Type your requirement on Search bar </p><br>
+					<p class="font-weight-bold">Step3:</p>
+					<p>Choose category of your
+						service from the list </p><br>
+					<p class="font-weight-bold">Step4:</p>
+					<p>Visit & Explore number of profile
+						according to your Service requirement.</p><br>
+					<p class="font-weight-bold">Step5:</p>
+					<p>Get Contact of your best match
+						service provider & your job Done!</p><br>
+				</div>
+				<div class="col-lg-6 col-md-6 col-12">
+					<figure class="center-div">
+						<img src="static/image/5.jpg" class="img-fluid">
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!----------------------------how to use ends--------------------->
+	<section class="main_heading my-5 test">
+		<div class="text-center">
+			<h1 class="font-weight-bold qwe">Testimonials</h1>
+		</div>
+		<div class="container">
+			<div class="row" id="testimonials">
+				<div class="col-lg-4 col-md-4 col-12 mb-3 mt-3">
+					<div class="box">
+						<a href=""><img src="static/image/2.jpg" class="img-fluid img-thumbnail" style="width:100%"></a>
+						<h1>Shyamlal Sharma</h1>
+						<h2>CEO, Chai Sutta Bar</h2>
+						<p> Lorem ipsum dolor sit amet, consetetur
+							sadipscing elitr, sed diam nonumy eirmod
+							tempor invidunt ut labore et dolore magna
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3 mt-3">
+					<div class="box">
+						<a href=""><img src="static/image/2.jpg" class="img-fluid img-thumbnail" style="width:100%"></a>
+						<h1>Shyamlal Sharma</h1>
+						<h2>CEO, Chai Sutta Bar</h2>
+						<p> Lorem ipsum dolor sit amet, consetetur
+							sadipscing elitr, sed diam nonumy eirmod
+							tempor invidunt ut labore et dolore magna
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3 mt-3">
+					<div class="box">
+						<a href=""><img src="static/image/2.jpg" class="img-fluid img-thumbnail" style="width:100%"></a>
+						<h1>Shyamlal Sharma</h1>
+						<h2>CEO, Chai Sutta Bar</h2>
+						<p> Lorem ipsum dolor sit amet, consetetur
+							sadipscing elitr, sed diam nonumy eirmod
+							tempor invidunt ut labore et dolore magna
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3 mt-3">
+					<div class="box">
+						<a href=""><img src="static/image/2.jpg" class="img-fluid img-thumbnail" style="width:100%"></a>
+						<h1>Shyamlal Sharma</h1>
+						<h2>CEO, Chai Sutta Bar</h2>
+						<p> Lorem ipsum dolor sit amet, consetetur
+							sadipscing elitr, sed diam nonumy eirmod
+							tempor invidunt ut labore et dolore magna
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-12 mb-3 mt-3">
+					<div class="box">
+						<a href=""><img src="static/image/2.jpg" class="img-fluid img-thumbnail" style="width:100%"></a>
+						<h1>Shyamlal Sharma</h1>
+						<h2>CEO, Chai Sutta Bar</h2>
+						<p> Lorem ipsum dolor sit amet, consetetur
+							sadipscing elitr, sed diam nonumy eirmod
+							tempor invidunt ut labore et dolore magna
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
